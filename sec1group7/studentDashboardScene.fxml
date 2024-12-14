@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sec1group7.StudentDashboardScene">
+   <children>
+      <Label layoutX="123.0" layoutY="28.0" prefHeight="28.0" prefWidth="251.0" text="Student Dashboard">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="29.0" layoutY="90.0" mnemonicParsing="false" onAction="#resultbuttononclick" text="Result" />
+      <Button layoutX="27.0" layoutY="140.0" mnemonicParsing="false" onAction="#classessbuttononclick" text="classes" />
+      <Button layoutX="123.0" layoutY="90.0" mnemonicParsing="false" onAction="#addminitratorsandstaffbuttononclick" text="Addministrators and Staff" />
+      <Button layoutX="123.0" layoutY="140.0" mnemonicParsing="false" onAction="#corporateclientloginbuttononclick" prefHeight="26.0" prefWidth="152.0" text="Corporate Client login" />
+      <Button layoutX="300.0" layoutY="90.0" mnemonicParsing="false" onAction="#culturalandgenaraluserbuttononclick" text="Cultural Enthusiasts and Genaral users" />
+      <Button layoutX="300.0" layoutY="174.0" mnemonicParsing="false" onAction="#Britishculturalbuttononclick" text="British Culture" />
+      <Button layoutX="304.0" layoutY="127.0" mnemonicParsing="false" onAction="#participatedonlineculturalbuttononclick" prefHeight="26.0" prefWidth="218.0" text="Participate in online cultural event" />
+      <Button layoutX="398.0" layoutY="174.0" mnemonicParsing="false" onAction="#multumediacontentbuttononclick" text="Multimedia content" />
+   </children>
+</AnchorPane>

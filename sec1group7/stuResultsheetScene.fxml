@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sec1group7.StuResultsheetScene">
+   <children>
+      <Label layoutX="166.0" layoutY="50.0" text="Student Result sheet">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="25.0" mnemonicParsing="false" onAction="#backbuttononclick" text="back" />
+      <Button layoutX="214.0" layoutY="317.0" mnemonicParsing="false" onAction="#reloadebuttononclick" text="Reloade" />
+      <Button layoutX="487.0" layoutY="317.0" mnemonicParsing="false" onAction="#logoutbuttononclick" text="logout" />
+      <TableView fx:id="studentresultsheettable" layoutX="55.0" layoutY="100.0" prefHeight="200.0" prefWidth="378.0">
+        <columns>
+          <TableColumn fx:id="coursescol" prefWidth="75.0" text="Courses" />
+          <TableColumn fx:id="idcol" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="numcol" prefWidth="75.0" text="Number" />
+            <TableColumn fx:id="gradecol" prefWidth="75.0" text="Grade" />
+            <TableColumn fx:id="cgpacol" prefWidth="75.0" text="CGPA" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sec1group7.AddministratorsScene">
+   <children>
+      <Button layoutX="21.0" layoutY="14.0" mnemonicParsing="false" onAction="#backbuttononclick" text="Back" />
+      <Button layoutX="239.0" layoutY="336.0" mnemonicParsing="false" onAction="#reloadbuttononclick" text="Reload" />
+      <Button layoutX="480.0" layoutY="336.0" mnemonicParsing="false" onAction="#logoutbuttononclick" text="logout" />
+      <Button layoutX="92.0" layoutY="14.0" mnemonicParsing="false" onAction="#createbuttononclick" text="Create" />
+      <Button layoutX="175.0" layoutY="14.0" mnemonicParsing="false" onAction="#submitbuttononclick" text="Submit" />
+      <TextField layoutX="164.0" layoutY="121.0" onAction="#lessonplanningtexedfiled" />
+      <TextField layoutX="164.0" layoutY="165.0" onAction="#progresstrackingtextfield" />
+      <TextField layoutX="164.0" layoutY="200.0" onAction="#quizzestextfield" />
+      <TextField layoutX="164.0" layoutY="238.0" onAction="#feedbacktextfield" />
+      <Label layoutX="50.0" layoutY="125.0" text="Lesson planning" />
+      <Label layoutX="46.0" layoutY="169.0" text="Progress tracking" />
+      <Label layoutX="54.0" layoutY="204.0" prefHeight="18.0" prefWidth="70.0" text="Quizze" />
+      <Label layoutX="50.0" layoutY="242.0" text="Feedback" />
+   </children>
+</AnchorPane>
